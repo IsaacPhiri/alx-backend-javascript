@@ -1,9 +1,3 @@
-// Execute: node 1-stdin.js
-// Output: Welcome to Holberton School, what is your name?
-//         Your name is: <input>
-//         This important software is now closing
-//         (program exits)
-// Note: <input> is whatever the user inputs
 const readline = require('readline');
 
 const rl = readline.createInterface({
