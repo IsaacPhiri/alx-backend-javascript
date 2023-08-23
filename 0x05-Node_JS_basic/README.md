@@ -21,4 +21,20 @@
 * All variables have a comment explaining what that variable is doing
 ## Tasks
 ### [0. Executing basic javascript with Node JS](./0-console.js)
-* Write a script that prints ```"Javascript is amazing"```:
+* Write a script that prints in STDOUT the string argument.:
+### [1. Using Process stdin](./1-stdin.js)
+* Write a script that reads and prints the content of a file.
+### [2. Reading a file synchronously with Node JS](./2-read_file.js)
+* Write a script that display the status code of a GET request.
+### [3. Reading a file asynchronously with Node JS](./3-write_file.js)
+* Write a script that writes a string to a file.
+### [4. Create a small HTTP server using Node's HTTP module](./4-http.js)
+* Write a script that display the status code of a GET request.
+### [5. Create a more complex HTTP server using Node's HTTP module](./5-http.js)
+* Write a script that display the status code of a GET request.
+### [6. Create a small HTTP server using Express](./6-http_express.js)
+* Write a script that display the status code of a GET request.
+### [7. Create a more complex HTTP server using Express](./7-http_express.js)
+* Write a script that display the status code of a GET request.
+
+
