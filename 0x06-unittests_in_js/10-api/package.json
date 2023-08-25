@@ -28,7 +28,6 @@
   "homepage": "https://github.com/IsaacPhiri/alx-backend-javascript/tree/main/0x06-unittests_in_js/10-api",
   "engines": {
     "node": "16.x",
-    "npm": "8.x",
-    "yarn": "1.x"
+    "npm": "8.x"
   }
 }
