@@ -13,7 +13,7 @@ app.get('/', (_req, res) => {
 app.get('/cart/:id(\\d+)', (req, res) => {
   const id = req.params.id;
 
-  res.send(`Payment methods for ${id}`);
+  res.send(`Payment methods for cart ${id}`);
 });
 
 app.get('/available_payments', (_req, res) => {
@@ -27,7 +27,7 @@ app.post('/login', (req, res) => {
     username = req.body.userName;
   }
 
-  res.send(`Welcome :${username}`);
+  res.send(`Welcome ${username}`);
 });
 
 app.listen(PORT, () => {
